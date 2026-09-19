@@ -28,17 +28,90 @@ header{
 }
 
 /* Main */
+
+
+form{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    max-width: 720px;
+    margin: 1.5rem auto;
+    padding: 0.75rem;
+    border: 1px solid #E5E5E0;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.inpute-text{
+    flex: 1;
+    min-width: 0;
+    padding: 0.6rem 0.75rem;
+    font: inherit;
+    font-size: 15px;
+    color: #1e293b;
+    background-color: #FAFAF8;
+    border: 1px solid #E5E5E0;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.inpute-text:focus{
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+.form-button{
+    flex-shrink: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #6366f1;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color .15s ease-in-out, transform .1s ease-in-out;
+}
+
+.form-button:hover{
+    background-color: #4f46e5;
+}
+
+.form-button:active{
+    transform: scale(0.95);
+}
+
+.form-button:focus-visible{
+    outline: 2px solid #4f46e5;
+    outline-offset: 2px;
+}
+
+@media (max-width: 600px){
+    form{
+        flex-wrap: wrap;
+        margin: 1rem;
+    }
+
+    .inpute-text{
+        flex-basis: 100%;
+    }
+
+    .radio-inputs{
+        flex: 1;
+    }
+}
+
 .radio-inputs {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  border-radius: 0.5rem;
-  background-color: #EEE;
-  box-sizing: border-box;
-  box-shadow: 0 0 0px 1px rgba(0, 0, 0, 0.06);
   padding: 0.25rem;
   width: 300px;
   font-size: 14px;
+  background-color: #F3F3EF;
+  border-radius: 0.75rem;
 }
 
 .radio-inputs .radio {
