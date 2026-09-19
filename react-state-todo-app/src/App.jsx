@@ -1,5 +1,12 @@
+import Header from "./Components/Header"
+
 function App() {
-  return <h1>Todo App</h1>
+  return(
+    <>
+      <Header />
+    </>
+  )
+  
 }
 
 export default App
