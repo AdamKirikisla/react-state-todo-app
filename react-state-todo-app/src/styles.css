@@ -27,9 +27,9 @@ header{
     height: 40px;
 }
 
-/* Main */
+/* Start of Main */
 
-
+/* Start of Forms */
 form{
     background-color: #fff;
     display: flex;
@@ -155,3 +155,8 @@ form{
 .radio-inputs .radio input[value="urgent"]:checked + .radio-text {
   background-color: #f13232;
 }
+
+/* End of Forms */
+
+
+/* End of Main */
