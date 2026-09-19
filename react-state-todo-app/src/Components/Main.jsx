@@ -9,22 +9,22 @@ export default function Main(){
 
                     <label className="radio">
                         <input type="radio" name="priority" value="low"/>
-                        <span className="name">Low</span>
+                        <span className="radio-text">Low</span>
                     </label>
 
                     <label className="radio">
-                        <input type="radio" name="priority" value="low"/>
-                        <span className="name">Medium</span>
+                        <input type="radio" name="priority" value="medium" defaultChecked/>
+                        <span className="radio-text">Medium</span>
                     </label>
 
                     <label className="radio">
-                        <input type="radio" name="priority" value="low"/>
-                        <span className="name">High</span>
+                        <input type="radio" name="priority" value="high"/>
+                        <span className="radio-text">High</span>
                     </label>
 
                     <label className="radio">
-                        <input type="radio" name="priority" value="low"/>
-                        <span className="name">Urgent</span>
+                        <input type="radio" name="priority" value="urgent"/>
+                        <span className="radio-text">Urgent</span>
                     </label>
 
 
