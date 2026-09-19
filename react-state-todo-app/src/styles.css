@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #FAFAF8;
+}
+
+
+header{
+    
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-bottom{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.react-logo {
+    height: 40px;
+}

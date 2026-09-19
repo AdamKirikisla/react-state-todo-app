@@ -10,13 +10,19 @@ export default function Header(){
     
     
     return(
-        <>
+        <header>
 
-        <img src={reactLogo} alt="reactLogo" />
-        <p>{date.toDateString()}</p>
-        <h1>Good Afternoon</h1>
-        <p>5 tasks remaining</p>
+        <div className='header-top'>
+            <p className='date'>{date.toDateString()}</p>
+            <img src={reactLogo} alt="reactLogo" className='react-logo' />
+        </div>
+
+        <div className='header-bottom'>
+            <h1>Good Afternoon</h1>
+            <p className='task-counter'>5 tasks remaining</p>
+        </div>
+
         
-        </>
+        </header>
     )
 }
