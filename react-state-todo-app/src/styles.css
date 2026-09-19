@@ -76,7 +76,7 @@ form{
 }
 
 .form-button:hover{
-    background-color: #4f46e5;
+    background-color: #2016e9;
 }
 
 .form-button:active{
@@ -88,20 +88,6 @@ form{
     outline-offset: 2px;
 }
 
-@media (max-width: 600px){
-    form{
-        flex-wrap: wrap;
-        margin: 1rem;
-    }
-
-    .inpute-text{
-        flex-basis: 100%;
-    }
-
-    .radio-inputs{
-        flex: 1;
-    }
-}
 
 .radio-inputs {
   position: relative;
@@ -139,18 +125,33 @@ form{
   font-weight: 600;
 }
 
+
+
+
+.radio-inputs .radio input[value="low"]:hover + .radio-text {
+  background-color: #4ade808c;
+}
 .radio-inputs .radio input[value="low"]:checked + .radio-text {
   background-color: #4ade80;
 }
 
+.radio-inputs .radio input[value="medium"]:hover + .radio-text {
+  background-color: #facc158c;
+}
 .radio-inputs .radio input[value="medium"]:checked + .radio-text {
   background-color: #facc15;
 }
 
+.radio-inputs .radio input[value="high"]:hover + .radio-text {
+  background-color: #fb923cac;
+}
 .radio-inputs .radio input[value="high"]:checked + .radio-text {
   background-color: #fb923c;
 }
 
+.radio-inputs .radio input[value="urgent"]:hover + .radio-text {
+  background-color: #f51c1cac;
+}
 .radio-inputs .radio input[value="urgent"]:checked + .radio-text {
-  background-color: #f87171;
+  background-color: #f13232;
 }
