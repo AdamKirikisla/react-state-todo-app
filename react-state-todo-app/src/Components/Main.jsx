@@ -2,7 +2,7 @@ export default function Main(){
     return(
         <main>
             <form action="">
-                <input type="text"placeholder="Add a task..." />
+                <input type="text"placeholder="Add a task..." className="inpute-text"/>
 
                 
                 <div className="radio-inputs">
@@ -29,6 +29,8 @@ export default function Main(){
 
 
                 </div>
+
+                <button type="submit" className="form-button">↵</button>
                 
             </form>
         </main>
