@@ -24,7 +24,13 @@ body {
 .react-logo {
     height: 40px;
 }
+.date{
+  font-family: "JetBrains Mono", monospace;
+}
 
+.task-counter{
+  font-family: "JetBrains Mono", monospace;
+}
 /* Start of Main */
 
 /* Start of Forms */
@@ -171,12 +177,18 @@ form{
   
 
 }
+
+/* The actual task */
 .task{
-  font-weight: bold;
+  font-weight: 500;
 }
 
-.finish-task,
-.delete-task
+.task-done{
+  
+}
+
+.finish-button,
+.delete-button
 {
   margin: 2rem;
 }
