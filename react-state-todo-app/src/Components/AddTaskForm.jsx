@@ -1,7 +1,10 @@
-export default function(){
+export default function(props){
+
+
+   
     return(
-                    <form action="">
-                <input type="text"placeholder="Add a task..." className="inpute-text"/>
+                    <form action={props.addTask}>
+                <input type="text" name="text" placeholder="Add a task..." className="inpute-text"/>
 
                 
                 <div className="radio-inputs">
