@@ -19,7 +19,7 @@ export default function Header(){
 
         <div className='header-bottom'>
             <h1>Good Afternoon</h1>
-            <p className='task-counter'>5 tasks remaining</p>
+            <p className='task-counter'>Made with React!</p>
         </div>
 
         

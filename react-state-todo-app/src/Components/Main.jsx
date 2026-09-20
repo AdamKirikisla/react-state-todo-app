@@ -1,5 +1,4 @@
 import AddTaskForm from "./AddTaskForm"
-import PriorityFilter from "./PriorityFilter"
 import TaskList from "./TaskList"
 import data from "../data.js"
 import { useState } from "react"
@@ -39,7 +38,6 @@ export default function Main(){
     return(
         <main>
             <AddTaskForm addTask={addTask} />
-            <PriorityFilter />
             <TaskList tasks={todoData} completeTask={completeTask} deleteTask={deleteTask} />
             
 

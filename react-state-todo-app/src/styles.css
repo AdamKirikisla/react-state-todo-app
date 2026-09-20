@@ -8,8 +8,9 @@ body {
 
 
 .header-top {
+  margin-top: 3rem; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .header-bottom{
