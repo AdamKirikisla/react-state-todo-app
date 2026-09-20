@@ -11,7 +11,7 @@ export default function Main(){
 
     function addTask(formData){
         const text = formData.get('text').trim() //'text' is for the html input name
-        priority = formData.get('priority')
+        const priority = formData.get('priority')
 
         if(!text) return
 
@@ -24,11 +24,17 @@ export default function Main(){
         setTodoData(prevTask => [...prevTask, newTask])
     }
 
+    function deleteTask(id){
+        setTodoData(prevTasks => prevTasks.filter(
+            
+            task => task.id !== id))
+    }
+
     return(
         <main>
             <AddTaskForm addTask={addTask} />
             <PriorityFilter />
-            <TaskList tasks={todoData} />
+            <TaskList tasks={todoData} deleteTask={deleteTask} />
             
 
             
