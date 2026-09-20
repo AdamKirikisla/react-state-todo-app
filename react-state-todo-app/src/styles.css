@@ -160,7 +160,13 @@ form{
 .radio-inputs .radio input[value="urgent"]:checked + .radio-text {
   background-color: #f13232;
 }
+@media screen and (max-width: 767px) {
 
+  form{
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
 /* End of Forms */
 
 /* Start of Filters */
