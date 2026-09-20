@@ -30,11 +30,17 @@ export default function Main(){
             task => task.id !== id))
     }
 
+    function completeTask(id){
+        setTodoData(prevTask => prevTask.map(
+            task => task.id === id ? {...task, done: !task.done} : task
+        ))
+    }
+
     return(
         <main>
             <AddTaskForm addTask={addTask} />
             <PriorityFilter />
-            <TaskList tasks={todoData} deleteTask={deleteTask} />
+            <TaskList tasks={todoData} completeTask={completeTask} deleteTask={deleteTask} />
             
 
             

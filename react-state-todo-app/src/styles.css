@@ -184,7 +184,9 @@ form{
 }
 
 .task-done{
-  
+  font-weight: 500;
+  text-decoration: line-through;
+  opacity: 0.5;
 }
 
 .finish-button,
