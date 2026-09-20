@@ -1,3 +1,5 @@
+import DeleteButton from "./DeleteButton"
+
 
 export default function TaskList(props){
     
@@ -5,7 +7,9 @@ export default function TaskList(props){
         task => (<li key={task.id} className={task.done ? "task-done" : "task"}>
             <button className="finish-button" onClick={() => props.completeTask(task.id)}>&#x2610;</button>
             {task.text} {task.priority}
-            <button className="delete-button" onClick={() => props.deleteTask(task.id)}>&#x2613;</button>
+            <DeleteButton onClick={() => props.deleteTask(task.id)}/>
+            
+            
         
         </li>)
     )
