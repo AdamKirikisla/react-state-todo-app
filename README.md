@@ -6,7 +6,7 @@
 
 **A simple todo app built to practice React and React state management.**
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://react-state-todo-fje8nduv2-adam-kirikisla.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://react-state-todo-app.vercel.app/)
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white)
