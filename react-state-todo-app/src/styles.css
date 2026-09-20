@@ -156,9 +156,31 @@ form{
 
 /* End of Forms */
 
-
-/* End of Main */
-
+/* Start of Filters */
 .filter-priority{
     text-align: center;
 }
+/* End of Filters */
+
+/* TaskList */
+.task-list{
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+.task{
+  font-weight: bold;
+}
+
+.finish-task,
+.delete-task
+{
+  margin: 2rem;
+}
+
+/* End of TaskList */
+/* End of Main */
+
